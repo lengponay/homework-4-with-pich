@@ -117,7 +117,7 @@ void draw () {
   noFill();
   ellipse (0, 780, 1200, 900);//lake
 
-  if (x0 <550) {
+  if (x0 <550 || x01<550) {
     stroke(255, 0, 0);
     noFill();
     strokeWeight(7);
